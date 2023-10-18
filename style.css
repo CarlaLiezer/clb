@@ -61,7 +61,7 @@ a {
     font-family: 'halcom', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+    font-size: clamp(0.75rem, 0.75rem + 0.25vw, 1rem);
 }
 
 .profile-left {
@@ -112,7 +112,7 @@ a {
 }
 
 #profile-img {
-    height: clamp(8rem, 6.4rem + 8vw, 16rem);
+    height: clamp(9rem, 6.4rem + 8vw, 16rem);
     border-radius: 50%;
     margin: 1.5rem 0 2rem 0;
     transform: scale(1);
@@ -168,7 +168,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        column-gap: clamp(0.5rem, 0.15rem + 1.8vw, 1.5rem);
+        row-gap: .75rem;
     }
     .name-presentation {
         grid-column: span 1;
